@@ -1,3 +1,5 @@
+// TODO delete unneeded stuff
+
 /*!
 
  =========================================================
@@ -64,16 +66,16 @@ const card = {
 };
 
 const defaultFont = {
-  fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+  fontFamily: '"Roboto Slab", sans-serif',
   fontWeight: "300",
   lineHeight: "1.5em"
 };
 
-const primaryColor = "#9c27b0";
-const warningColor = "#ff9800";
-const dangerColor = "#f44336";
-const successColor = "#4caf50";
-const infoColor = "#00acc1";
+const primaryColor = "#0277bd";
+const warningColor = "#f50057";
+const dangerColor = "#ff1744";
+const successColor = "#00bfa5";
+const infoColor = "#00b8d4";
 const roseColor = "#e91e63";
 const grayColor = "#999999";
 
@@ -160,7 +162,7 @@ const title = {
   margin: "1.75rem 0 0.875rem",
   textDecoration: "none",
   fontWeight: "700",
-  fontFamily: `"Roboto Slab", "Times New Roman", serif`
+  fontFamily: `"Roboto Slab", serif`
 };
 
 const cardTitle = {
