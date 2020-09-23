@@ -12,7 +12,7 @@ import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import Header from "components/Header/Header.jsx"
 import HeaderLinks from "components/Header/HeaderLinks.jsx"
-import { default as React } from "react"
+import React from "react"
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 class AboutPage extends React.Component {
@@ -53,7 +53,6 @@ class AboutPage extends React.Component {
           }}
           {...rest}
         />
-        {/* <Parallax small filter image={require("assets/img/profile-bg.jpg")} /> */}
         <div
           className={classes.pageHeader}
           style={{
