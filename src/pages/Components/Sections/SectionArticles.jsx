@@ -56,8 +56,8 @@ class SectionArticles extends React.Component {
                     {article.body}
                   </CardBody>
                   <CardFooter className={classes.cardFooter}>
-                    <Link to={article.link} className={classes.link}>
-                      <Button color="transparent" size="sm" simple>
+                    <Link to={article.link}>
+                      <Button color="primary" size="sm" round>
                         <FaArrowCircleRight />
                       </Button>
                     </Link>
