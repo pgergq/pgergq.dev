@@ -82,6 +82,7 @@ const mainPageStyle = {
   },
   title: {
     ...title,
+    fontWeight: "200",
     display: "inline-block",
     position: "relative",
     marginTop: "30px",
@@ -92,7 +93,7 @@ const mainPageStyle = {
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "500px",
-    margin: "10px auto 0",
+    margin: "10px 0 0",
   },
   main: {
     background: "#FFFFFF",

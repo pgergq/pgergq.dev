@@ -51,11 +51,11 @@ const headerStyle = {
     flex: 1,
   },
   title: {
-    fontWeight: "700",
-    lineHeight: "30px",
-    fontSize: "18px",
+    fontWeight: "400",
+    lineHeight: "20px",
+    fontSize: "14px",
     borderRadius: "3px",
-    textTransform: "none",
+    textTransform: "uppercase",
     color: "inherit",
     padding: "8px 16px",
     "&:hover,&:focus": {

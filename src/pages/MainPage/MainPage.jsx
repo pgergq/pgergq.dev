@@ -61,7 +61,9 @@ class MainPage extends React.Component {
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <h1 className={classes.title}>hey, i'm gergely.</h1>
-                  <h4>this is my personal website of many things.</h4>
+                  <h4 className={classes.subtitle}>
+                    this is my personal website of many things.
+                  </h4>
                 </GridItem>
               </GridContainer>
             </div>
